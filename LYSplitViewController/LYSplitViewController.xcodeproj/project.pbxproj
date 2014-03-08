@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD6F817182B32DC00317414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6F816182B32DC00317414 /* UIKit.framework */; };
+		BFD6F819182B32DC00317414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6F818182B32DC00317414 /* Foundation.framework */; };
+		BFD6F81B182B32DC00317414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD6F81A182B32DC00317414 /* CoreGraphics.framework */; };
+		BFD6F821182B32DC00317414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F81F182B32DC00317414 /* InfoPlist.strings */; };
+		BFD6F823182B32DC00317414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD6F822182B32DC00317414 /* main.m */; };
+		BFD6F827182B32DC00317414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD6F826182B32DC00317414 /* AppDelegate.m */; };
+		BFD6F829182B32DC00317414 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F828182B32DC00317414 /* Default.png */; };
+		BFD6F82B182B32DC00317414 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F82A182B32DC00317414 /* Default@2x.png */; };
+		BFD6F82D182B32DC00317414 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F82C182B32DC00317414 /* Default-568h@2x.png */; };
+		BFD6F834182B334300317414 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F833182B334300317414 /* MainWindow.xib */; };
+		BFD6F838182B338900317414 /* LYSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD6F836182B338900317414 /* LYSplitViewController.m */; };
+		BFD6F839182B338900317414 /* LYSplitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD6F837182B338900317414 /* LYSplitViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFD6F813182B32DC00317414 /* LYSplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD6F816182B32DC00317414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFD6F818182B32DC00317414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFD6F81A182B32DC00317414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFD6F81E182B32DC00317414 /* LYSplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LYSplitViewController-Info.plist"; sourceTree = "<group>"; };
+		BFD6F820182B32DC00317414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFD6F822182B32DC00317414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD6F824182B32DC00317414 /* LYSplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		BFD6F825182B32DC00317414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFD6F826182B32DC00317414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFD6F828182B32DC00317414 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFD6F82A182B32DC00317414 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFD6F82C182B32DC00317414 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFD6F833182B334300317414 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		BFD6F835182B338900317414 /* LYSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSplitViewController.h; sourceTree = "<group>"; };
+		BFD6F836182B338900317414 /* LYSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSplitViewController.m; sourceTree = "<group>"; };
+		BFD6F837182B338900317414 /* LYSplitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSplitViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD6F810182B32DC00317414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD6F817182B32DC00317414 /* UIKit.framework in Frameworks */,
+				BFD6F819182B32DC00317414 /* Foundation.framework in Frameworks */,
+				BFD6F81B182B32DC00317414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD6F80A182B32DC00317414 = {
+			isa = PBXGroup;
+			children = (
+				BFD6F81C182B32DC00317414 /* LYSplitViewController */,
+				BFD6F815182B32DC00317414 /* Frameworks */,
+				BFD6F814182B32DC00317414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD6F814182B32DC00317414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6F813182B32DC00317414 /* LYSplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD6F815182B32DC00317414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6F816182B32DC00317414 /* UIKit.framework */,
+				BFD6F818182B32DC00317414 /* Foundation.framework */,
+				BFD6F81A182B32DC00317414 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD6F81C182B32DC00317414 /* LYSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6F825182B32DC00317414 /* AppDelegate.h */,
+				BFD6F826182B32DC00317414 /* AppDelegate.m */,
+				BFD6F81D182B32DC00317414 /* Supporting Files */,
+				BFD6F833182B334300317414 /* MainWindow.xib */,
+				BFD6F835182B338900317414 /* LYSplitViewController.h */,
+				BFD6F836182B338900317414 /* LYSplitViewController.m */,
+				BFD6F837182B338900317414 /* LYSplitViewController.xib */,
+			);
+			path = LYSplitViewController;
+			sourceTree = "<group>";
+		};
+		BFD6F81D182B32DC00317414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6F81E182B32DC00317414 /* LYSplitViewController-Info.plist */,
+				BFD6F81F182B32DC00317414 /* InfoPlist.strings */,
+				BFD6F822182B32DC00317414 /* main.m */,
+				BFD6F824182B32DC00317414 /* LYSplitViewController-Prefix.pch */,
+				BFD6F828182B32DC00317414 /* Default.png */,
+				BFD6F82A182B32DC00317414 /* Default@2x.png */,
+				BFD6F82C182B32DC00317414 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD6F812182B32DC00317414 /* LYSplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD6F830182B32DC00317414 /* Build configuration list for PBXNativeTarget "LYSplitViewController" */;
+			buildPhases = (
+				BFD6F80F182B32DC00317414 /* Sources */,
+				BFD6F810182B32DC00317414 /* Frameworks */,
+				BFD6F811182B32DC00317414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSplitViewController;
+			productName = LYSplitViewController;
+			productReference = BFD6F813182B32DC00317414 /* LYSplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD6F80B182B32DC00317414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "マックノート２";
+			};
+			buildConfigurationList = BFD6F80E182B32DC00317414 /* Build configuration list for PBXProject "LYSplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFD6F80A182B32DC00317414;
+			productRefGroup = BFD6F814182B32DC00317414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD6F812182B32DC00317414 /* LYSplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD6F811182B32DC00317414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD6F821182B32DC00317414 /* InfoPlist.strings in Resources */,
+				BFD6F829182B32DC00317414 /* Default.png in Resources */,
+				BFD6F82B182B32DC00317414 /* Default@2x.png in Resources */,
+				BFD6F82D182B32DC00317414 /* Default-568h@2x.png in Resources */,
+				BFD6F834182B334300317414 /* MainWindow.xib in Resources */,
+				BFD6F839182B338900317414 /* LYSplitViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD6F80F182B32DC00317414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD6F823182B32DC00317414 /* main.m in Sources */,
+				BFD6F827182B32DC00317414 /* AppDelegate.m in Sources */,
+				BFD6F838182B338900317414 /* LYSplitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFD6F81F182B32DC00317414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD6F820182B32DC00317414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD6F82E182B32DC00317414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD6F82F182B32DC00317414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD6F831182B32DC00317414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYSplitViewController/LYSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "LYSplitViewController/LYSplitViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFD6F832182B32DC00317414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYSplitViewController/LYSplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "LYSplitViewController/LYSplitViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD6F80E182B32DC00317414 /* Build configuration list for PBXProject "LYSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD6F82E182B32DC00317414 /* Debug */,
+				BFD6F82F182B32DC00317414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD6F830182B32DC00317414 /* Build configuration list for PBXNativeTarget "LYSplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD6F831182B32DC00317414 /* Debug */,
+				BFD6F832182B32DC00317414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD6F80B182B32DC00317414 /* Project object */;
+}
